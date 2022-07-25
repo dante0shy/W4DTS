@@ -13,7 +13,7 @@ Then, unzip all the zip file to the SemanticKITTI directory. The directory shoul
     --sv_sample_point_v3
     --superV_v2
 ```
-
+aa
 In our paper, the rule of initial frames sampling is:
 ```
 (i % sr == 0) and ((i+sr-1) < len(sequence)) or (len(sequence)-sr) 
