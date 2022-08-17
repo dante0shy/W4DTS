@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES: "0"
+
+data_base: "/home/dante0shy/dataset/KITTI"
+sv_dir: "/home/dante0shy/dataset/KITTI/superV_v2"
+
+log_pos: "/home/dante0shy/dataset/iwpc"
+mid_data_base_format: "mid_{}_GM"
+
+batch_size: 10
+sample_interval: 100
+update_rate: 30
+training_epochs: 90

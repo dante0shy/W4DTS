@@ -213,3 +213,4 @@ cython_debug/
 
 *.out
 README_tmp.md
+netv1rev-000000048.pth
