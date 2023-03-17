@@ -107,9 +107,9 @@ The code to train the models in SPP is under the `train/stage_SPP`.
 cd train/stage_SPP
 ```
 
-1. Modify `data_base` to your postion of SemanticKITTI, which contains `sequences`, in `train/stage_SPP/train_tempGM_spp.py` and `train/stage_SPP/train_tempOT_spp.py`
+1. Modify `data_base` in YAML file to your postion of SemanticKITTI, which contains `sequences`, in `train/stage_SPP/train_tempGM_spp.py` and `train/stage_SPP/train_tempOT_spp.py`
 
-2. Modify `log_pos` for saving the training logs and model snapshots. The training logs and model snapshots are saved in the `log_pos`
+2. Modify `log_pos` in YAML file for saving the training logs and model snapshots. The training logs and model snapshots are saved in the `log_pos`
 
 3. Train the model with:
     ```
@@ -125,9 +125,9 @@ The code to train the models in SPP is under the `train/stage_DSP`.
 cd train/stage_DSP
 ```
 
-1. Modify `data_base` to your position of SemanticKITTI, which contains `sequences`, in `train/stage_DSP/train_tempGM_spp.py` and `train/stage_DSP/train_tempOT_spp.py`
+1. Modify `data_base` in YAML file to your position of SemanticKITTI, which contains `sequences`, in `train/stage_DSP/train_tempGM_spp.py` and `train/stage_DSP/train_tempOT_spp.py`
 
-2. Modify `log_pos` for saving the training logs and model snapshots. The training logs and model snapshots are saved in the `log_pos`
+2. Modify `log_pos` in YAML file for saving the training logs and model snapshots. The training logs and model snapshots are saved in the `log_pos`
 
 3. Choose the initial model from previous stage with modifying `pretrain_dir`. 
    The default model is our `pretrained/model-b-spp-tempOT.pth`.
